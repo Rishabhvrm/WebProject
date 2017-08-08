@@ -10,10 +10,10 @@
     <title>Home</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"> <! -- copied Bootstrap CDN link (R) -->
+    <link href="css/bootstrap.css" rel="stylesheet"> <! -- copied Bootstrap CDN link (R) -->
 
     <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
   </head>
 
   <body>
@@ -31,6 +31,7 @@
                 <a class="nav-link active" href="#">Home</a>
                 <a class="nav-link" href="#">Features</a>
                 <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="timer.html">Timer</a>
               </nav>
             </div>
           </div>
@@ -44,10 +45,18 @@
             </p>
           </div>
 
+          <div class="about">
+            <a href="#info" class="btn btn-info" data-toggle="collapse">About Us</a>
+            <div id="info" class="collapse">
+              This is a page you must've heard of.
+            </div>
+          </div>
+
           <div class="mastfoot">
             <div class="inner">
               <p>Join us on <a href="https://www.facebook.com/themovieverse">Facebook</a> and <a href="https://twitter.com/mdo">Instagram</a>.</p>
               <p>By Lalit and Rishabh</p>
+              <p>Drop a suggestion : <a href="#"> <span class = "glyphicon glyphicon-envelope"></a></span></p> <!--envelope icon not working bcz bootstrap 3.3.7 is needed-->
             </div>
           </div>
 
